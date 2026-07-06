@@ -24,6 +24,7 @@ h1 + p em {
   display: block;
   font-size: 18px;
   margin-bottom: 25px;
+  color: #777;
 }
 
 /* Paragraphs */
@@ -68,12 +69,56 @@ blockquote {
   font-style: italic;
 }
 
-/* Post list on the homepage */
+/* Post list on the homepage: muted date column, quiet title links */
 .posts {
   list-style: none;
   padding-left: 0;
+  margin-top: 2em;
 }
 
 .posts li {
-  margin: 0.5em 0;
+  display: flex;
+  margin: 0.55em 0;
+}
+
+.posts .date {
+  color: #888;
+  width: 11em;
+  flex-shrink: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.posts a {
+  border-bottom-color: transparent;
+}
+
+.posts a:hover {
+  border-bottom-color: #000;
+}
+
+@media (max-width: 520px) {
+  .posts li {
+    display: block;
+    margin: 1em 0;
+  }
+
+  .posts .date {
+    display: block;
+    font-size: 0.9em;
+  }
+}
+
+/* Return-to-home link at the end of each post */
+main > p:last-child {
+  margin-top: 2.5em;
+}
+
+main > p:last-child a {
+  color: #777;
+  border-bottom-color: transparent;
+}
+
+main > p:last-child a:hover {
+  color: #111;
+  border-bottom-color: #000;
 }
