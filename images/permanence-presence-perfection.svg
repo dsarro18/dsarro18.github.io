@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 520">
+  <rect width="600" height="520" fill="#ffffff"/>
+  <polygon points="300,120 110,420 490,420" fill="none" stroke="#222222" stroke-width="2.5"/>
+  <circle cx="300" cy="120" r="9" fill="#222222"/>
+  <circle cx="110" cy="420" r="9" fill="#222222"/>
+  <circle cx="490" cy="420" r="9" fill="#222222"/>
+  <text x="300" y="85" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#222222">Perfection</text>
+  <text x="110" y="470" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#222222">Presence</text>
+  <text x="490" y="470" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#222222">Permanence</text>
+</svg>
